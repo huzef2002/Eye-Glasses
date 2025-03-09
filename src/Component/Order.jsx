@@ -20,10 +20,10 @@ function Order() {
     const itemName = CardItem.map((item) => item.CardData.Name).join(', ')
 
     const text =
-      `     ID: ${itemIds}
-      Name: ${itemName}
-      ItemQTY: ${itemQty}
-      Total Amount: ${priceQty}`;
+      `ID: ${itemIds}
+Name: ${itemName}
+ItemQTY: ${itemQty}
+Total Amount: ${priceQty}`;
 
     // Encode the entire string so newlines become %0A, etc.
     const encodedText = encodeURIComponent(text);

@@ -4,6 +4,7 @@ import Catogary from '../Component/Catogary';
 import GlassItem from '../Component/GlassItem';
 import Slider from '../Component/Slider';
 import Order from '../Component/Order';
+import Footer from '../Component/Footer';
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <Catogary />
       <Slider/>
       <GlassItem />
+      <Footer/>
     </div>
 
   );

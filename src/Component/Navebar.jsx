@@ -7,7 +7,7 @@ function Navebar() {
   const dispatch = useDispatch();
   return (
     <>
-      <nav className=' flex justify-between lg:flex-row flex-col py-3 mx-6 mb-10'>
+      <nav className=' flex justify-between lg:flex-row flex-col py-3 mx-6 mb-4 lg:mb-10'>
         <div>
           <h3 className='text-xl '> {new Date().toUTCString().slice(0, 16)}</h3>
           <h2 className=' text-2xl font-bold'> Roshni Opticals </h2>

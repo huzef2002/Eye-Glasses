@@ -131,7 +131,7 @@ function GlassItem() {
         reverseOrder={false}
       />
 
-      <div className='flex gap-10 flex-wrap justify-center items-center lg:justify-start ms-6 my-6'>
+      <div className='flex gap-3 lg:gap-10 flex-wrap justify-center items-center lg:justify-start my-3 lg:ms-6 lg:my-6'>
         {
           CardData.filter((glass) => {
             if (catogary === "All") {
